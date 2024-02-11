@@ -1,0 +1,22 @@
+.table {
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+tr:nth-child(2n) {
+  background-color: #ddd3d3;
+}
+
+td {
+  padding: 10px 40px;
+  text-align: center;
+  border: solid 1px black;
+}
+
+th {
+  border: solid 1px black;
+  text-align: center;
+  background-color: #847e7e;
+}
