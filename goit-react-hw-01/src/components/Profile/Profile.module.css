@@ -1,0 +1,57 @@
+.card {
+  background-color: rgb(225, 225, 225);
+  border: solid 2px rgb(0, 0, 0);
+  width: 250px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.image {
+  display: block;
+  border-radius: 50%;
+  width: 200px;
+  margin: 0 auto;
+  background-color: rgb(59, 59, 59);
+}
+
+.userName {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.userTag {
+  text-align: center;
+  color: rgb(92, 92, 92);
+  size: 16px;
+  margin-bottom: 8px;
+}
+
+.userLocation {
+  text-align: center;
+  color: rgb(92, 92, 92);
+  size: 16px;
+  margin-bottom: 8px;
+}
+
+.list {
+  display: flex;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.listItem {
+  padding: 11px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(186, 186, 186);
+  border: solid 1px rgb(85, 85, 85);
+}
+
+.text {
+  text-align: center;
+  font-weight: bold;
+}
